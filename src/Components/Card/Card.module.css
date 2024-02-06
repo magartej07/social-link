@@ -1,0 +1,42 @@
+.Card{
+    width: 320px;
+    padding: 2rem;
+    background-color:var(--Dark-grey);
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+.CardImg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.Group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+}
+.Group > h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--White);
+}
+.Group > p{
+    color: rgba(255, 255, 0, 0.6);
+}
+p{
+    font-size: 12px;
+    font-weight: 600;
+}
+.Position{
+    color: hsl(0, 2%, 60%);
+    font-size: 400;
+}
+.BtnGroup{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
