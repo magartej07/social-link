@@ -11,11 +11,11 @@ const Card = () => {
     </div>
     <p className={styles.Position}>"Front-end developer and avid reader."</p>
     <div className={styles.BtnGroup}>
-    <Button >GitHub</Button>
-    <Button >Frontend Mentor</Button>
-    <Button >Linkedin</Button>
-    <Button >Twitter</Button>
-    <Button >Instagram</Button>
+    <Button href="https://github.com/" >GitHub</Button>
+    <Button href="https://www.frontendmentor.io/">Frontend Mentor</Button>
+    <Button href="https://np.linkedin.com/">Linkedin</Button>
+    <Button href="https://twitter.com/?lang=en">Twitter</Button>
+    <Button href="https://www.instagram.com/">Instagram</Button>
     </div>
     
   </div>;
